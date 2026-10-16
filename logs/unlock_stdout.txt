@@ -1,0 +1,1764 @@
+===============================================================
+ Sunmi P1 (MT6580) - BOOTLOADER UNLOCK (seccfg)
+ Log: logs/brom_unlock_20261015_180107.log
+ Original seccfg backed up at: dumps/seccfg.bin
+===============================================================
+
+>>> STEP 1: UNPLUG the USB cable from the P1 NOW.
+           (waiting until no MediaTek USB device is present...)
+    OK - device is off the USB bus.
+
+>>> STEP 2: Force the P1 fully OFF - hold POWER for ~15 seconds.
+>>> STEP 3: Hold VOLUME UP and plug the USB cable back in.
+
+    (mtkclient is waiting for the BootROM handshake)
+
+Preloader - Status: Waiting for PreLoader VCOM, please reconnect mobile/iot device to brom mode
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+..........Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+........Port - Device detected :)
+Preloader - Detected regular mode !
+Preloader - 	CPU:			MT6580()
+Preloader - 	HW version:		0x0
+Preloader - 	WDT:			0x10007000
+Preloader - 	Uart:			0x11005000
+Preloader - 	Brom payload addr:	0x100a00
+Preloader - 	DA payload addr:	0x201000
+Preloader - 	CQ_DMA addr:		0x1020ac00
+Preloader - 	Var1:			0xac
+Preloader - Disabling Watchdog...
+Preloader - HW code:			0x6580
+Preloader - Target config:		0x0
+Preloader - 	SBC enabled:		False
+Preloader - 	SLA enabled:		False
+Preloader - 	DAA enabled:		False
+Preloader - 	SWJTAG enabled:		False
+Preloader - 	EPP_PARAM at 0x600 after EMMC_BOOT/SDMMC_BOOT:	False
+Preloader - 	Root cert required:	False
+Preloader - 	Mem read auth:		False
+Preloader - 	Mem write auth:		False
+Preloader - 	Cmd 0xC8 blocked:	False
+Preloader - Get Target info
+Preloader - BROM mode detected.
+Preloader - 	HW subcode:		0x8a00
+Preloader - 	HW Ver:			0xca00
+Preloader - 	SW Ver:			0x0
+Preloader - ME_ID:			9E20BBCF1878DE1D5E4A4544B5FD5A77
+DaHandler - Device is unprotected.
+DaHandler - Device is in BROM-Mode. Bypassing security.
+DaHandler - Unprotected device, we assume we can patch directly !
+DaHandler
+DaHandler - [LIB]: [31mFailed to dump preloader from ram, provide a valid one via --preloader option[0m
+DALegacy - Uploading legacy da...
+DALegacy - Uploading legacy stage 1 from MTK_DA_V5.bin
+LegacyExt - Legacy DA2 is patched.
+LegacyExt - Legacy DA2 CMD F0 is patched.
+LegacyExt - Legacy Fast Read is patched.
+Preloader - Jumping to 0x200000
+Preloader - Jumping to 0x200000: ok.
+DALegacy - Got loader sync !
+DALegacy - Reading nand info
+DALegacy - Reading emmc info
+DALegacy - ACK: 04029c
+DALegacy - Setting stage 2 config ...
+DALegacy - DRAM config needed for : 150100464e58324d42065e55689f64c9
+Detected preloader: /home/puffercat/sunmi-p1-experiments/mtkclient/mtkclient/Loader/Preloader/preloader_A32F_itel.bin
+DALegacy - Reading dram nand info ...
+DALegacy - Sending dram info ... EMI-Version 0x15
+DALegacy - RAM-Length: 0xbc
+DALegacy - Checksum: 63A8
+DALegacy - M_EXT_RAM_RET : 0
+DALegacy - M_EXT_RAM_TYPE : 0x2
+DALegacy - M_EXT_RAM_CHIP_SELECT : 0x0
+DALegacy - M_EXT_RAM_SIZE : 0x40000000
+DALegacy - Uploading stage 2...
+Done |----------| 1.7% Stage 2: (0x1000/0x39A78),0.00 MB/sProgress: |----------| 3.5% Stage 2: (0x2000/0x39A78), 566.51 KB/s  Progress: |█---------| 5.2% Stage 2: (0x3000/0x39A78), 579.24 KB/s  Progress: |█---------| 6.9% Stage 2: (0x4000/0x39A78), 734.75 KB/s  Progress: |█---------| 8.7% Stage 2: (0x5000/0x39A78), 795.69 KB/s  Progress: |█---------| 10.4% Stage 2: (0x6000/0x39A78), 851.72 KB/s  Progress: |█---------| 12.1% Stage 2: (0x7000/0x39A78), 885.57 KB/s  Progress: |█---------| 13.9% Stage 2: (0x8000/0x39A78), 895.79 KB/s  Progress: |██--------| 15.6% Stage 2: (0x9000/0x39A78), 825.41 KB/s  Progress: |██--------| 17.3% Stage 2: (0xA000/0x39A78), 830.68 KB/s  Progress: |██--------| 19.1% Stage 2: (0xB000/0x39A78), 864.58 KB/s  Progress: |██--------| 20.8% Stage 2: (0xC000/0x39A78), 861.3 KB/s  Progress: |██--------| 22.5% Stage 2: (0xD000/0x39A78), 828.91 KB/s  Progress: |██--------| 24.3% Stage 2: (0xE000/0x39A78), 841.05 KB/s  Progress: |███-------| 26.0% Stage 2: (0xF000/0x39A78), 880.46 KB/s  Progress: |███-------| 27.8% Stage 2: (0x10000/0x39A78), 846.56 KB/s  Progress: |███-------| 29.5% Stage 2: (0x11000/0x39A78), 837.27 KB/s  Progress: |███-------| 31.2% Stage 2: (0x12000/0x39A78), 930.62 KB/s  Progress: |███-------| 33.0% Stage 2: (0x13000/0x39A78), 883.34 KB/s  Progress: |███-------| 34.7% Stage 2: (0x14000/0x39A78), 897.18 KB/s  Progress: |████------| 36.4% Stage 2: (0x15000/0x39A78), 839.32 KB/s  Progress: |████------| 38.2% Stage 2: (0x16000/0x39A78), 832.82 KB/s  Progress: |████------| 39.9% Stage 2: (0x17000/0x39A78), 862.85 KB/s  Progress: |████------| 41.6% Stage 2: (0x18000/0x39A78), 845.07 KB/s  Progress: |████------| 43.4% Stage 2: (0x19000/0x39A78), 872.86 KB/s  Progress: |█████-----| 45.1% Stage 2: (0x1A000/0x39A78), 870.55 KB/s  Progress: |█████-----| 46.8% Stage 2: (0x1B000/0x39A78), 859.93 KB/s  Progress: |█████-----| 48.6% Stage 2: (0x1C000/0x39A78), 887.21 KB/s  Progress: |█████-----| 50.3% Stage 2: (0x1D000/0x39A78), 831.46 KB/s  Progress: |█████-----| 52.0% Stage 2: (0x1E000/0x39A78), 834.9 KB/s  Progress: |█████-----| 53.8% Stage 2: (0x1F000/0x39A78), 789.92 KB/s  Progress: |██████----| 55.5% Stage 2: (0x20000/0x39A78), 845.67 KB/s  Progress: |██████----| 57.2% Stage 2: (0x21000/0x39A78), 839.28 KB/s  Progress: |██████----| 59.0% Stage 2: (0x22000/0x39A78), 812.5 KB/s  Progress: |██████----| 60.7% Stage 2: (0x23000/0x39A78), 847.59 KB/s  Progress: |██████----| 62.4% Stage 2: (0x24000/0x39A78), 831.83 KB/s  Progress: |██████----| 64.2% Stage 2: (0x25000/0x39A78), 847.16 KB/s  Progress: |███████---| 65.9% Stage 2: (0x26000/0x39A78), 866.77 KB/s  Progress: |███████---| 67.6% Stage 2: (0x27000/0x39A78), 886.6 KB/s  Progress: |███████---| 69.4% Stage 2: (0x28000/0x39A78), 818.92 KB/s  Progress: |███████---| 71.1% Stage 2: (0x29000/0x39A78), 679.54 KB/s  Progress: |███████---| 72.8% Stage 2: (0x2A000/0x39A78), 893.74 KB/s  Progress: |███████---| 74.6% Stage 2: (0x2B000/0x39A78), 896.31 KB/s  Progress: |████████--| 76.3% Stage 2: (0x2C000/0x39A78), 901.32 KB/s  Progress: |████████--| 78.1% Stage 2: (0x2D000/0x39A78), 897.37 KB/s  Progress: |████████--| 79.8% Stage 2: (0x2E000/0x39A78), 934.04 KB/s  Progress: |████████--| 81.5% Stage 2: (0x2F000/0x39A78), 933.57 KB/s  Progress: |████████--| 83.3% Stage 2: (0x30000/0x39A78), 940.32 KB/s  Progress: |████████--| 85.0% Stage 2: (0x31000/0x39A78), 880.83 KB/s  Progress: |█████████-| 86.7% Stage 2: (0x32000/0x39A78), 592.27 KB/s  Progress: |█████████-| 88.5% Stage 2: (0x33000/0x39A78), 796.6 KB/s  Progress: |█████████-| 90.2% Stage 2: (0x34000/0x39A78), 858.52 KB/s  Progress: |█████████-| 91.9% Stage 2: (0x35000/0x39A78), 814.39 KB/s  Progress: |█████████-| 93.7% Stage 2: (0x36000/0x39A78), 775.43 KB/s  Progress: |██████████| 95.4% Stage 2: (0x37000/0x39A78), 843.88 KB/s  Progress: |██████████| 97.1% Stage 2: (0x38000/0x39A78), 832.7 KB/s  Progress: |██████████| 98.9% Stage 2: (0x39000/0x39A78), 906.24 KB/s  Progress: |██████████| 100.0% Stage 2: (0x39A78/0x39A78), 740.11 KB/s  
+DALegacy - Waiting for response ...
+DALegacy - Successfully uploaded stage 2
+DALegacy - Connected to stage2
+DALegacy - Reconnecting to stage2 with higher speed
+DeviceClass - [Errno 2] Entity not found
+DALegacy - Connected to stage2 with higher speed
+DALegacy - m_int_sram_ret = 0x0
+m_int_sram_size = 0x20000
+m_ext_ram_ret = 0x0
+m_ext_ram_type = 0x2
+m_ext_ram_chip_select = 0x0
+m_int_sram_ret = 0x0
+m_ext_ram_size = 0x40000000
+randomid = 0xFBD5A2EAEB31ECD2972CAB13F3932452
+
+DALegacy - m_emmc_ret = 0x0
+m_emmc_boot1_size = 0x400000
+m_emmc_boot2_size = 0x400000
+m_emmc_rpmb_size = 0x80000
+m_emmc_gp_size[0] = 0x0
+m_emmc_gp_size[1] = 0x0
+m_emmc_gp_size[2] = 0x0
+m_emmc_gp_size[3] = 0x0
+m_emmc_ua_size = 0x1d2000000
+m_emmc_cid = 4e58324d15010046689f64c942065e55
+m_emmc_fwver = 0600000000000000
+
+LegacyExt - Detected V3 Lockstate
+Sej - AES128 CBC - HACC init
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej - AES128 CBC - HACC run
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej - AES128 CBC - HACC terminate
+Sej - SecCfg Hw - HACC init
+Sej
+Sej - [LIB]: [31mSEJ Legacy Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej - SecCfg Hw - HACC run
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej
+Sej - [LIB]: [31mSEJ Hardware seems not to be configured correctly. Results may be wrong.[0m
+Sej - SecCfg Hw - HACC terminate
+Done |██████████| 100.0% Write: (0x1A00/0x1A00),0.00 MB/s
+DaHandler - Successfully wrote seccfg.
+Reset command was sent. Disconnect usb cable to power off.
+
+===============================================================
+ Done. Log: logs/brom_unlock_20261015_180107.log
+
+ The device should now reboot. If it does not boot at all, restore
+ the original seccfg with:
+   ./venv/bin/python mtkclient/mtk.py w seccfg dumps/seccfg.bin
+===============================================================

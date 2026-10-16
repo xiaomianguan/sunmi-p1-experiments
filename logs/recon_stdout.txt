@@ -1,0 +1,418 @@
+### Sunmi P1 BROM reconnaissance
+### Log file : logs/brom_recon_20261015_173724.log
+### Waiting for an MTK BootROM device (USB 0e8d:0003).
+### -> Power the device OFF, hold VOLUME UP, then plug in the USB cable.
+
+########## gettargetconfig ##########
+Preloader - Status: Waiting for PreLoader VCOM, please reconnect mobile/iot device to brom mode
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+....Port - Device detected :)
+Preloader - Detected regular mode !
+Preloader - 	CPU:			MT6580()
+Preloader - 	HW version:		0x0
+Preloader - 	WDT:			0x10007000
+Preloader - 	Uart:			0x11005000
+Preloader - 	Brom payload addr:	0x100a00
+Preloader - 	DA payload addr:	0x201000
+Preloader - 	CQ_DMA addr:		0x1020ac00
+Preloader - 	Var1:			0xac
+Preloader - Disabling Watchdog...
+Preloader - HW code:			0x6580
+Preloader - Target config:		0x0
+Preloader - 	SBC enabled:		False
+Preloader - 	SLA enabled:		False
+Preloader - 	DAA enabled:		False
+Preloader - 	SWJTAG enabled:		False
+Preloader - 	EPP_PARAM at 0x600 after EMMC_BOOT/SDMMC_BOOT:	False
+Preloader - 	Root cert required:	False
+Preloader - 	Mem read auth:		False
+Preloader - 	Mem write auth:		False
+Preloader - 	Cmd 0xC8 blocked:	False
+Preloader - Get Target info
+Preloader - BROM mode detected.
+Preloader - 	HW subcode:		0x8a00
+Preloader - 	HW Ver:			0xca00
+Preloader - 	SW Ver:			0x0
+Preloader - ME_ID:			9E20BBCF1878DE1D5E4A4544B5FD5A77
+Main - Getting target info...
+Preloader - Target config:		0x0
+Preloader - 	SBC enabled:		False
+Preloader - 	SLA enabled:		False
+Preloader - 	DAA enabled:		False
+Preloader - 	SWJTAG enabled:		False
+Preloader - 	EPP_PARAM at 0x600 after EMMC_BOOT/SDMMC_BOOT:	False
+Preloader - 	Root cert required:	False
+Preloader - 	Mem read auth:		False
+Preloader - 	Mem write auth:		False
+Preloader - 	Cmd 0xC8 blocked:	False
+########## gettargetconfig exit: 0 ##########
+
+########## printgpt ##########
+DaHandler
+DaHandler - [LIB]: [33mTarget config is still unset after the initial connection attempt; retrying preloader initialization.[0m
+Preloader - Status: Waiting for PreLoader VCOM, please reconnect mobile/iot device to brom mode
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+Port - Handshake failed after retries
+Terminated                 timeout 700 "$PY" "$MTK" printgpt
+########## printgpt exit: 143 ##########
+
+### Done. Full log saved to: logs/brom_recon_20261015_173724.log

@@ -1,0 +1,159 @@
+===============================================================
+ Sunmi P1 (MT6580) - write partition 'boot'
+ Source : boot_adb_root.img
+ Log    : logs/brom_write_boot_20261015_190241.log
+===============================================================
+
+>>> STEP 1: UNPLUG the USB cable from the P1 NOW.
+           (waiting until no MediaTek USB device is present...)
+    OK - device is off the USB bus.
+
+>>> STEP 2: Force the P1 fully OFF - hold POWER for ~15 seconds.
+>>> STEP 3: Hold VOLUME UP and plug the USB cable back in.
+
+Preloader - Status: Waiting for PreLoader VCOM, please reconnect mobile/iot device to brom mode
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+.......Port - Device detected :)
+Preloader - Detected regular mode !
+Preloader - 	CPU:			MT6580()
+Preloader - 	HW version:		0x0
+Preloader - 	WDT:			0x10007000
+Preloader - 	Uart:			0x11005000
+Preloader - 	Brom payload addr:	0x100a00
+Preloader - 	DA payload addr:	0x201000
+Preloader - 	CQ_DMA addr:		0x1020ac00
+Preloader - 	Var1:			0xac
+Preloader - Disabling Watchdog...
+Preloader - HW code:			0x6580
+Preloader - Target config:		0x0
+Preloader - 	SBC enabled:		False
+Preloader - 	SLA enabled:		False
+Preloader - 	DAA enabled:		False
+Preloader - 	SWJTAG enabled:		False
+Preloader - 	EPP_PARAM at 0x600 after EMMC_BOOT/SDMMC_BOOT:	False
+Preloader - 	Root cert required:	False
+Preloader - 	Mem read auth:		False
+Preloader - 	Mem write auth:		False
+Preloader - 	Cmd 0xC8 blocked:	False
+Preloader - Get Target info
+Preloader - BROM mode detected.
+Preloader - 	HW subcode:		0x8a00
+Preloader - 	HW Ver:			0xca00
+Preloader - 	SW Ver:			0x0
+Preloader - ME_ID:			9E20BBCF1878DE1D5E4A4544B5FD5A77
+DaHandler - Device is unprotected.
+DaHandler - Device is in BROM-Mode. Bypassing security.
+DaHandler - Unprotected device, we assume we can patch directly !
+DaHandler
+DaHandler - [LIB]: [31mFailed to dump preloader from ram, provide a valid one via --preloader option[0m
+DALegacy - Uploading legacy da...
+DALegacy - Uploading legacy stage 1 from MTK_DA_V5.bin
+LegacyExt - Legacy DA2 is patched.
+LegacyExt - Legacy DA2 CMD F0 is patched.
+LegacyExt - Legacy Fast Read is patched.
+Preloader - Jumping to 0x200000
+Preloader - Jumping to 0x200000: ok.
+DALegacy - Got loader sync !
+DALegacy - Reading nand info
+DALegacy - Reading emmc info
+DALegacy - ACK: 04029c
+DALegacy - Setting stage 2 config ...
+DALegacy - DRAM config needed for : 150100464e58324d42065e55689f64c9
+Detected preloader: /home/puffercat/sunmi-p1-experiments/mtkclient/mtkclient/Loader/Preloader/preloader_A32F_itel.bin
+DALegacy - Reading dram nand info ...
+DALegacy - Sending dram info ... EMI-Version 0x15
+DALegacy - RAM-Length: 0xbc
+DALegacy - Checksum: 63A8
+DALegacy - M_EXT_RAM_RET : 0
+DALegacy - M_EXT_RAM_TYPE : 0x2
+DALegacy - M_EXT_RAM_CHIP_SELECT : 0x0
+DALegacy - M_EXT_RAM_SIZE : 0x40000000
+DALegacy - Uploading stage 2...
+Done |----------| 1.7% Stage 2: (0x1000/0x39A78),0.00 MB/sProgress: |----------| 3.5% Stage 2: (0x2000/0x39A78), 664.22 KB/s  Progress: |█---------| 5.2% Stage 2: (0x3000/0x39A78), 853.28 KB/s  Progress: |█---------| 6.9% Stage 2: (0x4000/0x39A78), 926.92 KB/s  Progress: |█---------| 8.7% Stage 2: (0x5000/0x39A78), 973.61 KB/s  Progress: |█---------| 10.4% Stage 2: (0x6000/0x39A78), 984.17 KB/s  Progress: |█---------| 12.1% Stage 2: (0x7000/0x39A78), 954.72 KB/s  Progress: |█---------| 13.9% Stage 2: (0x8000/0x39A78), 929.79 KB/s  Progress: |██--------| 15.6% Stage 2: (0x9000/0x39A78), 1003.6 KB/s  Progress: |██--------| 17.3% Stage 2: (0xA000/0x39A78), 903.41 KB/s  Progress: |██--------| 19.1% Stage 2: (0xB000/0x39A78), 866.14 KB/s  Progress: |██--------| 20.8% Stage 2: (0xC000/0x39A78), 938.8 KB/s  Progress: |██--------| 22.5% Stage 2: (0xD000/0x39A78), 965.32 KB/s  Progress: |██--------| 24.3% Stage 2: (0xE000/0x39A78), 963.54 KB/s  Progress: |███-------| 26.0% Stage 2: (0xF000/0x39A78), 956.51 KB/s  Progress: |███-------| 27.8% Stage 2: (0x10000/0x39A78), 931.71 KB/s  Progress: |███-------| 29.5% Stage 2: (0x11000/0x39A78), 920.31 KB/s  Progress: |███-------| 31.2% Stage 2: (0x12000/0x39A78), 941.27 KB/s  Progress: |███-------| 33.0% Stage 2: (0x13000/0x39A78), 935.34 KB/s  Progress: |███-------| 34.7% Stage 2: (0x14000/0x39A78), 985.68 KB/s  Progress: |████------| 36.4% Stage 2: (0x15000/0x39A78), 980.38 KB/s  Progress: |████------| 38.2% Stage 2: (0x16000/0x39A78), 986.66 KB/s  Progress: |████------| 39.9% Stage 2: (0x17000/0x39A78), 911.26 KB/s  Progress: |████------| 41.6% Stage 2: (0x18000/0x39A78), 946.9 KB/s  Progress: |████------| 43.4% Stage 2: (0x19000/0x39A78), 939.95 KB/s  Progress: |█████-----| 45.1% Stage 2: (0x1A000/0x39A78), 959.96 KB/s  Progress: |█████-----| 46.8% Stage 2: (0x1B000/0x39A78), 799.91 KB/s  Progress: |█████-----| 48.6% Stage 2: (0x1C000/0x39A78), 783.62 KB/s  Progress: |█████-----| 50.3% Stage 2: (0x1D000/0x39A78), 971.92 KB/s  Progress: |█████-----| 52.0% Stage 2: (0x1E000/0x39A78), 910.67 KB/s  Progress: |█████-----| 53.8% Stage 2: (0x1F000/0x39A78), 660.0 KB/s  Progress: |██████----| 55.5% Stage 2: (0x20000/0x39A78), 897.32 KB/s  Progress: |██████----| 57.2% Stage 2: (0x21000/0x39A78), 923.65 KB/s  Progress: |██████----| 59.0% Stage 2: (0x22000/0x39A78), 896.99 KB/s  Progress: |██████----| 60.7% Stage 2: (0x23000/0x39A78), 959.19 KB/s  Progress: |██████----| 62.4% Stage 2: (0x24000/0x39A78), 944.29 KB/s  Progress: |██████----| 64.2% Stage 2: (0x25000/0x39A78), 917.59 KB/s  Progress: |███████---| 65.9% Stage 2: (0x26000/0x39A78), 940.53 KB/s  Progress: |███████---| 67.6% Stage 2: (0x27000/0x39A78), 957.17 KB/s  Progress: |███████---| 69.4% Stage 2: (0x28000/0x39A78), 970.29 KB/s  Progress: |███████---| 71.1% Stage 2: (0x29000/0x39A78), 948.67 KB/s  Progress: |███████---| 72.8% Stage 2: (0x2A000/0x39A78), 886.28 KB/s  Progress: |███████---| 74.6% Stage 2: (0x2B000/0x39A78), 972.31 KB/s  Progress: |████████--| 76.3% Stage 2: (0x2C000/0x39A78), 997.04 KB/s  Progress: |████████--| 78.1% Stage 2: (0x2D000/0x39A78), 1004.56 KB/s  Progress: |████████--| 79.8% Stage 2: (0x2E000/0x39A78), 1004.02 KB/s  Progress: |████████--| 81.5% Stage 2: (0x2F000/0x39A78), 933.99 KB/s  Progress: |████████--| 83.3% Stage 2: (0x30000/0x39A78), 986.72 KB/s  Progress: |████████--| 85.0% Stage 2: (0x31000/0x39A78), 995.33 KB/s  Progress: |█████████-| 86.7% Stage 2: (0x32000/0x39A78), 968.1 KB/s  Progress: |█████████-| 88.5% Stage 2: (0x33000/0x39A78), 970.12 KB/s  Progress: |█████████-| 90.2% Stage 2: (0x34000/0x39A78), 1019.21 KB/s  Progress: |█████████-| 91.9% Stage 2: (0x35000/0x39A78), 1.01 MB/s  Progress: |█████████-| 93.7% Stage 2: (0x36000/0x39A78), 1005.71 KB/s  Progress: |██████████| 95.4% Stage 2: (0x37000/0x39A78), 1011.65 KB/s  Progress: |██████████| 97.1% Stage 2: (0x38000/0x39A78), 1014.4 KB/s  Progress: |██████████| 98.9% Stage 2: (0x39000/0x39A78), 1009.58 KB/s  Progress: |██████████| 100.0% Stage 2: (0x39A78/0x39A78), 956.13 KB/s  
+DALegacy - Waiting for response ...
+DALegacy - Successfully uploaded stage 2
+DALegacy - Connected to stage2
+DALegacy - Reconnecting to stage2 with higher speed
+DeviceClass - [Errno 2] Entity not found
+DALegacy - Connected to stage2 with higher speed
+DALegacy - m_int_sram_ret = 0x0
+m_int_sram_size = 0x20000
+m_ext_ram_ret = 0x0
+m_ext_ram_type = 0x2
+m_ext_ram_chip_select = 0x0
+m_int_sram_ret = 0x0
+m_ext_ram_size = 0x40000000
+randomid = 0xFBD5A2EAEB31ECD2972CAB13F3932452
+
+DALegacy - m_emmc_ret = 0x0
+m_emmc_boot1_size = 0x400000
+m_emmc_boot2_size = 0x400000
+m_emmc_rpmb_size = 0x80000
+m_emmc_gp_size[0] = 0x0
+m_emmc_gp_size[1] = 0x0
+m_emmc_gp_size[2] = 0x0
+m_emmc_gp_size[3] = 0x0
+m_emmc_ua_size = 0x1d2000000
+m_emmc_cid = 4e58324d15010046689f64c942065e55
+m_emmc_fwver = 0600000000000000
+
+Done |█---------| 6.2% Write: (0x100000/0x1000000),0.00 MB/sProgress: |█---------| 12.5% Write: (0x200000/0x1000000), 9.03 MB/s  Progress: |██--------| 18.8% Write: (0x300000/0x1000000), 9.58 MB/s  Progress: |██--------| 25.0% Write: (0x400000/0x1000000), 9.86 MB/s  Progress: |███-------| 31.2% Write: (0x500000/0x1000000), 9.46 MB/s  Progress: |████------| 37.5% Write: (0x600000/0x1000000), 8.99 MB/s  Progress: |████------| 43.8% Write: (0x700000/0x1000000), 8.9 MB/s  Progress: |█████-----| 50.0% Write: (0x800000/0x1000000), 9.75 MB/s  Progress: |██████----| 56.2% Write: (0x900000/0x1000000), 9.02 MB/s  Progress: |██████----| 62.5% Write: (0xA00000/0x1000000), 9.93 MB/s  Progress: |███████---| 68.8% Write: (0xB00000/0x1000000), 7.74 MB/s  Progress: |████████--| 75.0% Write: (0xC00000/0x1000000), 8.81 MB/s  Progress: |████████--| 81.2% Write: (0xD00000/0x1000000), 8.79 MB/s  Progress: |█████████-| 87.5% Write: (0xE00000/0x1000000), 9.5 MB/s  Progress: |█████████-| 93.8% Write: (0xF00000/0x1000000), 5.92 MB/s  Progress: |██████████| 100.0% Write: (0x1000000/0x1000000), 10.03 MB/s  
+Wrote boot_adb_root.img to sector 59648 with sector count 32768.
+DaHandler - Requesting available partitions ....
+DaHandler - Dumping partition "boot"
+Done |█---------| 6.2% Read: (0x100000/0x1000000),0.00 MB/sProgress: |█---------| 12.5% Read: (0x200000/0x1000000), 2.07 MB/s 03s left Progress: |██--------| 18.8% Read: (0x300000/0x1000000), 2.14 MB/s 04s left Progress: |██--------| 25.0% Read: (0x400000/0x1000000), 2.11 MB/s 04s left Progress: |███-------| 31.2% Read: (0x500000/0x1000000), 2.14 MB/s 04s left Progress: |████------| 37.5% Read: (0x600000/0x1000000), 2.03 MB/s 03s left Progress: |████------| 43.8% Read: (0x700000/0x1000000), 2.02 MB/s 03s left Progress: |█████-----| 50.0% Read: (0x800000/0x1000000), 2.04 MB/s 03s left Progress: |██████----| 56.2% Read: (0x900000/0x1000000), 1.98 MB/s 03s left Progress: |██████----| 62.5% Read: (0xA00000/0x1000000), 1.98 MB/s 02s left Progress: |███████---| 68.8% Read: (0xB00000/0x1000000), 1.97 MB/s 02s left Progress: |████████--| 75.0% Read: (0xC00000/0x1000000), 2.05 MB/s 01s left Progress: |████████--| 81.2% Read: (0xD00000/0x1000000), 1.99 MB/s 01s left Progress: |█████████-| 87.5% Read: (0xE00000/0x1000000), 1.79 MB/s  Progress: |█████████-| 93.8% Read: (0xF00000/0x1000000), 1.88 MB/s  Progress: |██████████| 100.0% Read: (0x1000000/0x1000000), 1.92 MB/s  
+DaHandler - Dumped sector 59648 with sector count 32768 as dumps/boot_verify.bin.
+Reset command was sent. Disconnect usb cable to power off.
+
+===============================================================
+ VERIFY OK - 'boot' written and read back identical.
+ Log: logs/brom_write_boot_20261015_190241.log
+===============================================================

@@ -1,0 +1,1 @@
+664070 0x11ca06000 persist.sys.pq.shp.idx 163211

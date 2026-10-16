@@ -1,0 +1,158 @@
+===============================================================
+ Sunmi P1 (MT6580) - write partition 'boot'
+ Source : boot_fstab_test.img
+ Log    : logs/brom_write_boot_20261015_183152.log
+===============================================================
+
+>>> STEP 1: UNPLUG the USB cable from the P1 NOW.
+           (waiting until no MediaTek USB device is present...)
+    OK - device is off the USB bus.
+
+>>> STEP 2: Force the P1 fully OFF - hold POWER for ~15 seconds.
+>>> STEP 3: Hold VOLUME UP and plug the USB cable back in.
+
+Preloader - Status: Waiting for PreLoader VCOM, please reconnect mobile/iot device to brom mode
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+..........Preloader
+Preloader - [LIB]: [31mStatus: Handshake failed, retrying...[0m
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+...........
+
+Port - Hint:
+
+Power off the phone before connecting.
+For brom mode, press and hold vol up, vol dwn, or all hw buttons and connect usb.
+For preloader mode, don't press any hw button and connect usb.
+If it is already connected and on, hold power for 10 seconds to reset.
+
+
+Port - Device detected :)
+Preloader - Detected regular mode !
+Preloader - 	CPU:			MT6580()
+Preloader - 	HW version:		0x0
+Preloader - 	WDT:			0x10007000
+Preloader - 	Uart:			0x11005000
+Preloader - 	Brom payload addr:	0x100a00
+Preloader - 	DA payload addr:	0x201000
+Preloader - 	CQ_DMA addr:		0x1020ac00
+Preloader - 	Var1:			0xac
+Preloader - Disabling Watchdog...
+Preloader - HW code:			0x6580
+Preloader - Target config:		0x0
+Preloader - 	SBC enabled:		False
+Preloader - 	SLA enabled:		False
+Preloader - 	DAA enabled:		False
+Preloader - 	SWJTAG enabled:		False
+Preloader - 	EPP_PARAM at 0x600 after EMMC_BOOT/SDMMC_BOOT:	False
+Preloader - 	Root cert required:	False
+Preloader - 	Mem read auth:		False
+Preloader - 	Mem write auth:		False
+Preloader - 	Cmd 0xC8 blocked:	False
+Preloader - Get Target info
+Preloader - 	HW subcode:		0x8a00
+Preloader - 	HW Ver:			0xca00
+Preloader - 	SW Ver:			0x0
+DaHandler - Device is unprotected.
+DaHandler - Device is in Preloader-Mode.
+DALegacy - Uploading legacy da...
+DALegacy - Uploading legacy stage 1 from MTK_DA_V5.bin
+LegacyExt - Legacy DA2 is patched.
+LegacyExt - Legacy DA2 CMD F0 is patched.
+LegacyExt - Legacy Fast Read is patched.
+Preloader
+Preloader - [LIB]: [31mupload_data failed with error: DA_IMAGE_SIG_VERIFY_FAIL (0x2001)[0m
+Preloader
+Preloader - [LIB]: [31mError on uploading da data[0m
+DaHandler
+DaHandler - [LIB]: [31mFailed to upload da.[0m
+
+===============================================================
+ !! VERIFY MISMATCH for 'boot'
+ Log: logs/brom_write_boot_20261015_183152.log
+===============================================================

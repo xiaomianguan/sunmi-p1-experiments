@@ -1,0 +1,3 @@
+wo 0x11aa00000 0x1000 wowrites_rename/wo_0000000a0200.bin
+wo 0x11a802000 0x1000 wowrites_rename/wo_0000000a0002.bin
+wo 0x11ca06000 0x1000 wowrites_rename/wo_0000000a2206.bin

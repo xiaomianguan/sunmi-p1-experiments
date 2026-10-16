@@ -1,0 +1,5 @@
+wo 0x7a800000 0x2000 wowrites_ud/wo_000000000000.bin
+wo 0x7a959000 0x2000 wowrites_ud/wo_000000159000.bin
+wo 0x7ab6a000 0x1000 wowrites_ud/wo_00000036a000.bin
+wo 0x11a801000 0x2000 wowrites_ud/wo_0000a0001000.bin
+wo 0x11aa00000 0x1000 wowrites_ud/wo_0000a0200000.bin

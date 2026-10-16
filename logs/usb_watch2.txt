@@ -1,0 +1,1373 @@
+=== 18:06:07 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 045: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:09:48 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:10:24 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 046: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:10:26 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:10:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 047: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:10:31 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:10:58 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 048: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:11:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:11:03 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 049: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:11:06 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:11:23 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 050: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:11:27 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:11:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 051: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:11:31 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:11:49 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 052: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:11:53 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:11:55 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 053: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:11:56 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:11:57 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 054: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:12:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:12:03 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 055: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:12:06 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:12:22 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 056: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:12:27 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:12:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 057: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:12:31 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:12:48 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 058: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:12:53 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:12:54 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 059: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:12:56 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:13:13 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 060: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:13:18 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:13:20 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 061: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:13:22 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:13:39 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 062: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:13:42 ===
+  Bus 001 Device 000: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:13:42 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:13:43 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 064: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:15:51 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:16:09 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 065: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 18:16:14 ===
+  Bus 001 Device 000: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 18:16:15 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 065: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 18:21:06 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:21:46 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 066: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:21:48 ===
+  Bus 001 Device 000: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:21:49 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:21:49 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 068: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:22:55 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:24:00 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 069: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:24:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:25:05 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 070: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:25:07 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:26:10 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 071: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:26:13 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:27:15 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 072: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:27:18 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:28:21 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 073: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:28:22 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:28:23 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 074: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:28:27 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:28:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 075: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:28:31 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:29:34 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 076: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:29:37 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:30:39 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 077: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:30:42 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:31:44 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 078: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:31:47 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:32:50 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 079: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:32:51 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:32:52 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 080: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:32:57 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:32:58 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 081: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:33:01 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:37:47 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 082: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:37:51 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:37:54 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 083: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:37:56 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:38:18 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 084: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:38:23 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:38:26 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 085: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:38:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:39:04 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 086: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:39:08 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:39:11 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 087: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:39:13 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:40:25 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 088: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:40:30 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:40:32 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 089: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:40:35 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:51:13 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 091: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 18:51:17 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:51:20 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 092: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:51:22 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:57:12 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 094: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:57:14 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:57:36 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 095: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 18:57:38 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 18:57:50 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 096: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 18:57:54 ===
+  Bus 001 Device 000: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 18:57:55 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 096: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 19:03:39 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:04:09 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 097: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:04:12 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:04:13 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 099: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:05:56 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:07:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 100: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:07:04 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:08:07 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 101: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:08:09 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:09:12 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 102: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:09:15 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:10:18 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 103: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:10:19 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:10:19 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 104: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:10:24 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:10:26 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 105: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:10:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:11:23 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 106: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:11:27 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:11:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 107: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:11:32 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:11:47 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 108: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:11:52 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:11:54 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 109: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:11:57 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:13:31 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 110: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:13:35 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:13:38 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 111: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:13:41 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:14:43 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 112: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:14:46 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:16:31 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 113: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:16:34 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:16:35 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 115: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:21:55 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:22:13 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 116: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:22:16 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:22:17 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 118: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:23:05 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:24:12 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 119: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:24:14 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:25:17 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 120: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:25:19 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:26:22 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 121: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:26:25 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:27:27 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 122: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:27:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:27:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 123: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:27:34 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:27:35 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 124: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:27:38 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:28:41 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 125: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:28:42 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:28:43 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 126: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:28:47 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:28:49 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 127: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:28:51 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:29:54 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 002: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:29:56 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:30:59 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 005: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:31:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:32:04 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 006: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:32:07 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:33:10 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 007: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:33:12 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:34:15 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 008: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:34:18 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:35:18 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 009: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:35:23 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:35:26 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 010: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:35:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:36:26 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 011: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:36:31 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:36:34 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 012: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 19:36:36 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:40:24 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 013: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:40:27 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:40:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 015: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:41:43 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:42:27 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 016: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 19:50:24 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:51:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 017: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:51:05 ===
+  Bus 001 Device 000: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 19:51:05 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 19:51:06 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 019: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 20:46:13 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 20:49:35 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 020: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 20:49:38 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 20:49:39 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 022: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 20:51:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 20:51:16 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 023: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 20:53:05 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 20:53:08 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 024: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 21:31:14 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:32:43 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 025: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 21:32:47 ===
+  Bus 001 Device 000: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 21:32:47 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:32:48 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 027: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:39:56 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:40:24 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 028: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 21:40:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:40:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 030: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:48:11 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:49:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 031: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 21:49:33 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:49:34 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 033: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:51:27 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:52:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 035: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 21:58:22 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:58:33 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 036: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 21:58:37 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 21:58:37 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 038: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:05:51 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:06:04 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 039: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 22:06:07 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:06:09 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 041: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:07:35 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:08:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 042: ID 0e8d:2008 MediaTek Inc. Cyrus Technology CS 24
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK MTP (normal Android booted)
+=== 22:16:14 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:16:40 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 043: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 22:16:43 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:16:44 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 045: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:23:46 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:24:03 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 046: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 22:24:05 ===
+  Bus 001 Device 000: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 22:24:06 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:24:07 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 048: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:24:43 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:25:37 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 049: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:37:23 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:37:26 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 050: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 22:37:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:43:05 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 052: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:43:10 ===
+  Bus 001 Device 000: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:43:10 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 052: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:48:56 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:48:57 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 053: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 22:49:00 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 22:49:12 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 054: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:30:35 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:30:51 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 055: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:30:54 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:30:55 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 057: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:30:57 ===
+  Bus 001 Device 000: ID 0e8d:2001 MediaTek Inc. 
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:30:57 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 057: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:37:46 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:38:16 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 058: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:38:19 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:38:21 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 060: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:39:00 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:39:41 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 061: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:39:45 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:39:47 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 062: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 23:39:49 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:40:07 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 063: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:40:12 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:40:13 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 064: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 23:40:15 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:40:33 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 065: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:40:38 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:40:39 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 066: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 23:40:41 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:40:59 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 067: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:41:04 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:41:05 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 068: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 23:41:08 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:41:25 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 069: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:41:30 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:41:32 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 070: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 23:41:34 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:43:55 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 071: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:43:58 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:43:59 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 073: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:44:11 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:44:22 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 074: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:44:27 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:44:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 075: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 23:44:32 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:45:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 076: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:50:23 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:50:41 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 077: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 23:50:44 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:50:45 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 079: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 23:51:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:15:18 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 080: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:15:20 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:15:21 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 082: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:15:49 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:16:07 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 083: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:17:57 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:18:15 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 084: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:18:17 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:18:19 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 086: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:19:00 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:20:13 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 087: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:20:17 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:20:19 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 088: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 00:20:22 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:20:39 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 089: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:20:42 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:20:43 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 091: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:20:45 ===
+  Bus 001 Device 000: ID 0e8d:2001 MediaTek Inc. 
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:20:46 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 091: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:31:58 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:32:15 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 092: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:32:18 ===
+  Bus 001 Device 000: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:32:18 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:32:19 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 094: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:41:35 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:41:51 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 095: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:41:54 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:41:55 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 097: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:43:01 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:43:31 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 098: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:44:11 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:45:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 099: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:45:05 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:45:06 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 101: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:46:01 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:46:21 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 102: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:46:50 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:47:06 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 103: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:47:46 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:48:36 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 104: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:49:16 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:49:37 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 105: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:49:40 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:49:41 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 107: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:49:42 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:49:53 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 108: ID 0e8d:0003 MediaTek Inc. MT6227 phone
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK BOOTROM (BROM) MODE  <-- this is what we want
+=== 00:50:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:50:03 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 110: ID 0e8d:2001 MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:52:00 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 00:52:21 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 112: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:14:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 112: ID 0e8d:201d MediaTek Inc. 
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:14:02 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:14:04 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 113: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 05:14:07 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:14:18 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 114: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:20:12 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:20:14 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 115: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 05:20:16 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:20:28 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 116: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:21:29 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:21:33 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 117: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:31:42 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:31:44 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 118: ID 0e8d:2000 MediaTek Inc. MT65xx Preloader
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+  >> MTK PRELOADER MODE
+=== 05:31:47 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+=== 05:31:59 ===
+  Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+  Bus 001 Device 119: ID 0e8d:201d MediaTek Inc. P1N
+  Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub

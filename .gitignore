@@ -1,0 +1,46 @@
+# NOTE: gitignore has no inline comments - a '#' only starts a comment at the
+# beginning of a line. Keep every comment on its own line.
+
+# SunmiPrint is its own project with its own repository. Never commit it here.
+SunmiPrint/
+
+# --- vendored / local / re-downloadable -------------------------------------
+# python venv holding mtkclient's dependencies
+venv/
+# upstream clones (each has its own .git)
+mtkclient/
+mtk-easy-su/
+# downloaded ARM32 musl cross-toolchain (~385 MB)
+toolchain/
+# extracted magiskboot binaries
+magisk_tools/
+# Magisk release APKs (~23 MB)
+tools/*.apk
+
+# --- device dumps and image artifacts ---------------------------------------
+# dumps/ alone is ~18 GB; all of it is re-creatable via the brom_* scripts
+dumps/
+*.img
+*.bin
+kernel
+kernel_dtb
+ramdisk.cpio
+
+# --- runtime state / session logs -------------------------------------------
+.state
+logs/*.log
+
+# --- extracted device content: derived, large and/or proprietary ------------
+# Sunmi's proprietary system APKs (~21 MB)
+sunmiapps/
+# extracted proprietary APKs (~37 MB)
+analysis/apks/
+# extracted /system/etc: modem firmware, voice models (~150 MB)
+analysis/system_etc/
+# extracted Settings app (~22 MB)
+analysis/settings/
+# device /data state: settings XMLs, packages.xml (personal device data)
+analysis/userdata/
+
+# --- third-party clone with its own upstream --------------------------------
+Sunmi-v2-Firmware-/
