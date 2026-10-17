@@ -105,7 +105,7 @@ sudo cp 52-mtk.rules /etc/udev/rules.d/ && sudo udevadm control --reload
 | `brom_recon.sh` | `gettargetconfig` + `printgpt`: SBC/SLA/DAA state and the partition table |
 | `brom_dump.sh` | full partition dump into `dumps/` — the safety net |
 | `brom_dump_userdata.sh` | dumps `/data` (large; used for the property patch) |
-| `brom_read_live.sh` | reads the live `/property` + `settings_global.xml` blocks so a patch can be diffed before writing |
+| `brom_read_live.sh` | reads the live `/property` directory block, its inode table and the candidate property data blocks, so patches are built from current state |
 | `brom_read_back.sh` | reads a region back after a write, to verify |
 | `brom_diag_restore.sh` | restores from the `dumps/` snapshot |
 
@@ -144,6 +144,7 @@ sudo cp 52-mtk.rules /etc/udev/rules.d/ && sudo udevadm control --reload
 | `tools/poc_qu1ckr00t.c`, `tools/poc_dimitri.c` | public PoCs used as references (arm64 / other kernels) |
 | `tools/rootshell.sh` | the root helper executed by `core_pattern`: runs commands from `/data/local/tmp/.rcmd`, logs to `.rout` |
 | `tools/make_property_patch.py` | builds the 3-block `/data/property` patch (hard-link trick; no allocator metadata touched) |
+| `tools/fix_adb_property.py` | repairs an existing `persist.sys.usb.config` to re-enable adb — repoints the dirent at an inode we have read, fixes `i_size`, rewrites the value |
 | `tools/verity_disable_patch.py`, `tools/lk_verity_logging_patch.py` | dm-verity TLV and LK cmdline payload builders |
 | `tools/system_file_patch.py`, `tools/ext4_patch.py` | same-length in-place `/system` and ext4 edits |
 | `tools/exported_components.py` | manifest attack-surface lister (exported components + guarding permission) |
@@ -187,6 +188,41 @@ mtkclient/ venv/ toolchain/        vendored upstream + toolchain (gitignored)
 `.gitignore`, and nothing in this workspace refers to it as living here. Where
 `EXPLOITS.md` mentions `cc.wuersan008.smprint`, it means the app **installed on the
 device**, not a path in this tree.
+
+## Re-enabling adb if it gets turned off
+
+Toggling **USB debugging** off in Developer options makes `UsbDeviceManager` rewrite
+`persist.sys.usb.config` without `,adb`, so adbd stops starting and the device enumerates as
+`0e8d:2008` instead of `0e8d:201d`. The switch is greyed out on this ROM, so it cannot simply
+be switched back on. Recover it over BROM:
+
+```sh
+./brom_read_live.sh                        # session 1: read the /property blocks (READ ONLY)
+./venv/bin/python tools/fix_adb_property.py live wowrites_fix \
+    --data-file=<live file> --data-block=<block>      # build payloads on the host
+OUTDIR=wowrites_fix VERDIR=prop_verify_fix ./brom_write_prop_live.sh    # session 2: write
+```
+
+Both sessions want the usual dance: unplug, pull the battery, hold VOLUME UP and plug in to
+catch BROM (`0e8d:0003`). The device must stay off between them. Rollback:
+`OUTDIR=wowrites_fix VERDIR=prop_verify_fix ./brom_write_prop_live.sh --restore`.
+
+How it works, and the two traps:
+
+* `tools/fix_adb_property.py` points the existing `persist.sys.usb.config` dirent at an inode
+  whose data block we have read, sets that inode's `i_size` to `len(value)` and writes
+  `mtp,adb` into the block. Nothing is allocated — no bitmap, group descriptor or superblock
+  change — so it is immune to the stale-snapshot problem.
+* **The victim inode must be one nothing else writes.** The property file *shares* the
+  victim's inode, so anything that rewrites the victim truncates the shared inode and
+  destroys the value (this is what broke it once: the inode number in `victim.txt` had been
+  re-assigned to `persist.sys.sunmi_pay_mode`, which Sunmi rewrites at boot). Inode numbers
+  move whenever `/data` is re-initialised — always re-derive the victim from the live
+  directory block. Once the system re-creates the victim under a new inode, the property ends
+  up on a dedicated inode (`i_links 1`) and the fragility is gone.
+* After the write, the first boot can still come up without adb if the filesystem had a dirty
+  journal; a clean power cycle has always fixed it. `adb_enabled` is set to 1 by the framework
+  itself once the property is right — it is a consequence, never a lever.
 
 ## Warnings
 

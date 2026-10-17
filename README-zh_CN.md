@@ -141,6 +141,7 @@ sudo cp 52-mtk.rules /etc/udev/rules.d/ && sudo udevadm control --reload
 | `tools/poc_qu1ckr00t.c`、`tools/poc_dimitri.c` | 作为参考的公开 PoC（arm64 / 其他内核） |
 | `tools/rootshell.sh` | 由 `core_pattern` 执行的 root 助手：运行 `/data/local/tmp/.rcmd` 中的命令，日志写到 `.rout` |
 | `tools/make_property_patch.py` | 构建 3 块 `/data/property` 补丁（硬链接技巧；不触碰分配器元数据） |
+| `tools/fix_adb_property.py` | 修复已存在的 `persist.sys.usb.config` 以恢复 adb —— 把目录项重新指向一个我们已读取的 inode，修正 `i_size`，重写值 |
 | `tools/verity_disable_patch.py`、`tools/lk_verity_logging_patch.py` | dm-verity TLV 与 LK 命令行载荷构建器 |
 | `tools/system_file_patch.py`、`tools/ext4_patch.py` | 等长的 `/system` 与 ext4 原地修改 |
 | `tools/exported_components.py` | 清单攻击面列举器（导出组件 + 守卫权限） |
@@ -183,6 +184,37 @@ mtkclient/ venv/ toolchain/        内置的上游代码与工具链（已被 gi
 （`cc.wuersan008.smprint`）。它是一个**独立项目，有自己独立的仓库**，已在 `.gitignore`
 中列出，本工作区中没有任何内容把它当作位于此处。`EXPLOITS.md` 中提到
 `cc.wuersan008.smprint` 时，指的是**安装在设备上**的那个应用，而不是本目录树中的路径。
+
+## adb 被关闭后如何恢复
+
+在开发者选项里把 **USB 调试**关掉，会让 `UsbDeviceManager` 重写 `persist.sys.usb.config`
+并去掉 `,adb`，于是 adbd 不再启动，设备会以 `0e8d:2008` 而不是 `0e8d:201d` 枚举。这个 ROM
+上那个开关是灰的，所以没法直接再打开。要通过 BROM 恢复：
+
+```sh
+./brom_read_live.sh                        # 第一次会话：读取 /property 相关块（只读）
+./venv/bin/python tools/fix_adb_property.py live wowrites_fix \
+    --data-file=<live 文件> --data-block=<块号>        # 在主机上生成载荷
+OUTDIR=wowrites_fix VERDIR=prop_verify_fix ./brom_write_prop_live.sh    # 第二次会话：写入
+```
+
+两次会话都需要那套固定动作：拔掉 USB、取下电池、按住音量加插上，以抓到 BROM
+（`0e8d:0003`）。两次之间设备必须保持关机。回滚：
+`OUTDIR=wowrites_fix VERDIR=prop_verify_fix ./brom_write_prop_live.sh --restore`。
+
+原理与两个坑：
+
+* `tools/fix_adb_property.py` 把已存在的 `persist.sys.usb.config` 目录项指向一个我们已经
+  读取过数据块的 inode，把该 inode 的 `i_size` 设为 `len(value)`，并把 `mtp,adb` 写进那个块。
+  不分配任何东西 —— 不改位图、组描述符和超级块 —— 因此不受"快照过期"问题影响。
+* **被借用的 inode 必须是不会有别的东西去写它的。** 属性文件会*共享*该 inode，所以任何重写
+  该属性的操作都会截断这个共享 inode 并毁掉我们的值（这正是它曾经失效的原因：`victim.txt`
+  里的 inode 号后来被分配给了 `persist.sys.sunmi_pay_mode`，而 Sunmi 会在开机时重写它）。
+  只要 `/data` 被重新初始化，inode 号就会变 —— 必须每次从实时目录块重新推导。一旦系统把被
+  借用的属性改到新 inode 上，我们的属性就落在专属 inode 上（`i_links 1`），这种脆弱性就
+  彻底消失了。
+* 写入之后，第一次开机仍可能起不来 adb（如果文件系统有脏日志）；一次干净的重启总能解决。
+  属性正确后，`adb_enabled` 是框架自己设成 1 的 —— 它是结果，从来不是杠杆。
 
 ## 注意事项
 

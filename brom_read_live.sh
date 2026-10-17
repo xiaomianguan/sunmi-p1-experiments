@@ -4,7 +4,7 @@
 #
 #   block 655872  /property directory block        flash 0x11aa00000
 #   block 655362  group-20 inode table, block 0    flash 0x11a802000
-#   block 658946  data block of the linked file    flash 0x11b602000
+#   block 659973  data block of the linked file    flash 0x11ba05000
 #
 # There is deliberately NO `reset` here: if the device booted Android it would
 # write to /data again and invalidate everything we just read. After this runs,
@@ -25,9 +25,11 @@ mkdir -p "$OUT"
 BLOCKS="
 dir:0x11aa00000
 itblk:0x11a802000
-data:0x11b602000
-set1:0xd2c42000
-set2:0xd2c43000
+paymode:0x1bb207000
+profiler:0x1bb206000
+pqshp:0x11fe01000
+dalvikvm:0x120000000
+firstboot:0x11fc0a000
 "
 
 echo "==============================================================="
